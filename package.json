@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "pack": "vue-cli-service build --target wc --inline-vue --name cities-map",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
